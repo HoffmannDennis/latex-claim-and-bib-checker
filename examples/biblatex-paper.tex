@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage[backend=biber,style=authoryear]{biblatex}
+\addbibresource{references.bib}
+\addbibresource[datatype=bibtex]{software.bib}
+
+\begin{document}
+
+Residual networks \parencite{he2016resnet} and attention models
+\textcite{vaswani2017attention} dominate current practice; see also
+\autocite[436]{lecun2015deep} and \cite{harris2020numpy}.
+\nocite{*}
+
+\printbibliography
+\end{document}

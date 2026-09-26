@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artefacts
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Local data and secrets
+*.sqlite*
+.env
+.env.*
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/

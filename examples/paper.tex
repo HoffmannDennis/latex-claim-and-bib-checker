@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+
+\title{A Synthetic Example Document}
+\author{Example Author}
+
+\begin{document}
+\maketitle
+
+\input{sections/introduction}
+\include{sections/methods}
+
+% A commented-out citation is ignored: \cite{not_a_real_key}
+
+\bibliographystyle{plainnat}
+\bibliography{references,software}
+
+\end{document}
