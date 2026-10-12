@@ -224,4 +224,4 @@ A report starts with a header (tool version, date, input file name, the checks t
 
 ## 8. License
 
-Source-available, non-commercial: this project is released under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0), see [`LICENSE`](LICENSE). Users are responsible for complying with the terms of the services and data they use.
+This project is released under the [MIT License](LICENSE). Users are responsible for complying with the terms of the services and data they use.

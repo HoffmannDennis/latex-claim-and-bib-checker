@@ -8,8 +8,8 @@ dynamic = ["version"]
 description = "Check a LaTeX manuscript: citation consistency, BibTeX metadata against Crossref, OpenAlex and DataCite, and whether cited abstracts support the citing sentences."
 readme = "README.md"
 requires-python = ">=3.11"
-license = "PolyForm-Noncommercial-1.0.0"
-license-files = ["LICENSE", "NOTICE"]
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [{ name = "Dennis Hoffmann" }]
 keywords = ["latex", "bibtex", "references", "citations", "abstracts", "crossref", "openalex", "datacite", "llm"]
 classifiers = [
@@ -51,7 +51,6 @@ include = [
     "examples/",
     "README.md",
     "LICENSE",
-    "NOTICE",
     "pyproject.toml",
 ]
 
